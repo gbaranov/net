@@ -706,6 +706,9 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
         }
       },
+      "NuGet.CommandLine/6.7.0": {
+        "type": "package"
+      },
       "Swashbuckle.AspNetCore/6.4.0": {
         "type": "package",
         "dependencies": {
@@ -2472,6 +2475,23 @@
         "mono.texttemplating.nuspec"
       ]
     },
+    "NuGet.CommandLine/6.7.0": {
+      "sha512": "oZtSPcngJ2ffhG1GHn0KbltXTRDpHf+ZP9pYebUjKDsAvzTcBGviqemxZsKpb1alZ5dRVFmZD4J0sEP8whEcEg==",
+      "type": "package",
+      "path": "nuget.commandline/6.7.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NOTICES.txt",
+        "README.md",
+        "icon.png",
+        "nuget.commandline.6.7.0.nupkg.sha512",
+        "nuget.commandline.nuspec",
+        "tools/NuGet.exe",
+        "tools/NuGet.pdb"
+      ]
+    },
     "Swashbuckle.AspNetCore/6.4.0": {
       "sha512": "eUBr4TW0up6oKDA5Xwkul289uqSMgY0xGN4pnbOIBqCcN9VKGGaPvHX3vWaG/hvocfGDP+MGzMA0bBBKz2fkmQ==",
       "type": "package",
@@ -3906,6 +3926,7 @@
       "Microsoft.AspNetCore.OpenApi >= 7.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.10",
+      "NuGet.CommandLine >= 6.7.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -3960,6 +3981,12 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[7.0.10, )"
+          },
+          "NuGet.CommandLine": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[6.7.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

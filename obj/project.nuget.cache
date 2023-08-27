@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dlpw077ngCQl0TSIeRcv/96O5XKQtjmvk1BpsRfMqR2aR5jIGTM1QhnS5lbYaJHYFauA97NgLl22Mu9/BxEGHw==",
+  "dgSpecHash": "bhE2p2/rLLKIPDbBQz2u/nMez1xcfO6GF1DptRf0RHpw1j1kcDQlAyXBdhh1uC7w09RcptCiuQ1BqTBe1ENnUQ==",
   "success": true,
   "projectFilePath": "/Users/admin/Projects/net/net.csproj",
   "expectedPackageFiles": [
@@ -45,6 +45,7 @@
     "/Users/admin/.nuget/packages/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/microsoft.win32.systemevents/5.0.0/microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
+    "/Users/admin/.nuget/packages/nuget.commandline/6.7.0/nuget.commandline.6.7.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "/Users/admin/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
