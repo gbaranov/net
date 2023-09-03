@@ -1,26 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/admin/Projects/net/net.csproj": {}
+    "C:\\Users\\georgy.baranov\\Source\\Repos\\gbaranov\\net\\net.csproj": {}
   },
   "projects": {
-    "/Users/admin/Projects/net/net.csproj": {
+    "C:\\Users\\georgy.baranov\\Source\\Repos\\gbaranov\\net\\net.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/admin/Projects/net/net.csproj",
+        "projectUniqueName": "C:\\Users\\georgy.baranov\\Source\\Repos\\gbaranov\\net\\net.csproj",
         "projectName": "net",
-        "projectPath": "/Users/admin/Projects/net/net.csproj",
-        "packagesPath": "/Users/admin/.nuget/packages/",
-        "outputPath": "/Users/admin/Projects/net/obj/",
+        "projectPath": "C:\\Users\\georgy.baranov\\Source\\Repos\\gbaranov\\net\\net.csproj",
+        "packagesPath": "C:\\Users\\georgy.baranov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\georgy.baranov\\Source\\Repos\\gbaranov\\net\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/admin/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\georgy.baranov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.302/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "http://co-den-tfs:8080/tfs/DefaultCollection/_packaging/NeuronESB@Release/nuget/v3/index.json": {},
+          "http://co-den-tfs:8080/tfs/DenverITGit/_packaging/GSDev@Release/nuget/v3/index.json": {},
+          "http://co-den-tfs:8080/tfs/DenverITGit/_packaging/Gse.Core@Release/nuget/v3/index.json": {},
+          "http://co-den-tfs:8080/tfs/DenverITGit/_packaging/Neuron@Release/nuget/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -83,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
