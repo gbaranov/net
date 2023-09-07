@@ -1,5 +1,7 @@
 ﻿using net.Data;
 using Microsoft.EntityFrameworkCore;
+using net.Repositories.Interface;
+using net.Repositories.Implementation;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +16,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("AZURE"));
 
 });
+
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 
 var app = builder.Build();
 

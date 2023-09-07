@@ -3,37 +3,38 @@ using Microsoft.AspNetCore.Mvc;
 using net.Data;
 using net.Domain;
 using net.Models.DTO;
+using net.Repositories.Interface;
 
 namespace net.Controllers
 {   
-    // /api/categories
+
     [Route("api/[controller]")]
     [ApiController]
     public class CategoriesController : ControllerBase
     {
-        private readonly ApplicationDbContext dbContext;
-        public CategoriesController(ApplicationDbContext dbContext)
+        private readonly ICategoryRepository categoryRepository;
+
+        public CategoriesController(ICategoryRepository categoryRepository) 
         {
-            this.dbContext = dbContext;
+            this.categoryRepository = categoryRepository;
         }
 
         [HttpPost]
         public async Task<IActionResult> CreateCategory(CreateCategoryRequestDto request)
         {
-            var categoty = new Category 
+            var category = new Category 
             { 
                 Name = request.Name, 
                 UrlHandle = request.UrlHandle 
             };
 
-            await dbContext.Categories.AddAsync(categoty);
-            await dbContext.SaveChangesAsync();
+            await categoryRepository.CreateAsync(category);
 
             var response = new CategoryDto
             { 
-              Id = categoty.Id,
+              Id = category.Id,
               Name = request.Name,
-              UrlHandle = categoty.UrlHandle 
+              UrlHandle = category.UrlHandle 
             };
 
             return Ok(response);

@@ -3931,19 +3931,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\georgy.baranov\\.nuget\\packages\\": {}
+    "C:\\Users\\F\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\georgy.baranov\\Source\\Repos\\gbaranov\\net\\net.csproj",
+      "projectUniqueName": "C:\\Users\\F\\Source\\Repos\\net\\net.csproj",
       "projectName": "net",
-      "projectPath": "C:\\Users\\georgy.baranov\\Source\\Repos\\gbaranov\\net\\net.csproj",
-      "packagesPath": "C:\\Users\\georgy.baranov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\georgy.baranov\\Source\\Repos\\gbaranov\\net\\obj\\",
+      "projectPath": "C:\\Users\\F\\Source\\Repos\\net\\net.csproj",
+      "packagesPath": "C:\\Users\\F\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\F\\Source\\Repos\\net\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\georgy.baranov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\F\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3951,11 +3951,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
-        "http://co-den-tfs:8080/tfs/DefaultCollection/_packaging/NeuronESB@Release/nuget/v3/index.json": {},
-        "http://co-den-tfs:8080/tfs/DenverITGit/_packaging/GSDev@Release/nuget/v3/index.json": {},
-        "http://co-den-tfs:8080/tfs/DenverITGit/_packaging/Gse.Core@Release/nuget/v3/index.json": {},
-        "http://co-den-tfs:8080/tfs/DenverITGit/_packaging/Neuron@Release/nuget/v3/index.json": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4018,34 +4013,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://co-den-tfs:8080/tfs/DenverITGit/_packaging/Gse.Core@Release/nuget/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    },
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://co-den-tfs:8080/tfs/DenverITGit/_packaging/GSDev@Release/nuget/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    },
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://co-den-tfs:8080/tfs/DefaultCollection/_packaging/NeuronESB@Release/nuget/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    },
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://co-den-tfs:8080/tfs/DenverITGit/_packaging/Neuron@Release/nuget/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    }
-  ]
+  }
 }
