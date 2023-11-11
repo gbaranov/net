@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\georg\\source\\repos\\net.csproj": {}
+    "C:\\Users\\georg\\source\\netapi\\net.csproj": {}
   },
   "projects": {
-    "C:\\Users\\georg\\source\\repos\\net.csproj": {
+    "C:\\Users\\georg\\source\\netapi\\net.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\georg\\source\\repos\\net.csproj",
+        "projectUniqueName": "C:\\Users\\georg\\source\\netapi\\net.csproj",
         "projectName": "net",
-        "projectPath": "C:\\Users\\georg\\source\\repos\\net.csproj",
+        "projectPath": "C:\\Users\\georg\\source\\netapi\\net.csproj",
         "packagesPath": "C:\\Users\\georg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\georg\\source\\repos\\obj\\",
+        "outputPath": "C:\\Users\\georg\\source\\netapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\georg\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -3936,11 +3936,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\georg\\Source\\Repos\\net.csproj",
+      "projectUniqueName": "C:\\Users\\georg\\source\\netapi\\net.csproj",
       "projectName": "net",
-      "projectPath": "C:\\Users\\georg\\Source\\Repos\\net.csproj",
+      "projectPath": "C:\\Users\\georg\\source\\netapi\\net.csproj",
       "packagesPath": "C:\\Users\\georg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\georg\\Source\\Repos\\obj\\",
+      "outputPath": "C:\\Users\\georg\\source\\netapi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\georg\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KLhkyW8iYpgs/5zf+rnMkkLCA/ruvGL7fIUtXNhY7cKFImll/LD3CkBjdmVu5piYiiVsccEI1Zb9BTbPZg9fjA==",
+  "dgSpecHash": "xqDFahMp3Lh3do7Jx0SOKhDPgFJKYKlKzaFN42wMlEMI7t3ngYd1tOOmYBwUpDK4tVIsnFaPBiHj3g52NYK3cQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\georg\\source\\repos\\net.csproj",
+  "projectFilePath": "C:\\Users\\georg\\source\\netapi\\net.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\georg\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\georg\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
