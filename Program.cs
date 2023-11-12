@@ -2,9 +2,9 @@
 using Microsoft.EntityFrameworkCore;
 using net.Repositories.Interface;
 using net.Repositories.Implementation;
+using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
-
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -13,7 +13,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("SQLCONNSTR_AZURE"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("AZURESQL"));
 
 });
 
