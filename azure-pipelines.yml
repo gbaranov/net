@@ -38,4 +38,4 @@ steps:
     azureSubscription: 'Subscription 1(ed653312-eeb5-4b02-ac51-d9a5ae6ab2bd)'
     appType: 'webApp'
     WebAppName: 'fullstackappdev'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    packageForLinux: '$(Build.ArtifactStagingDirectory)/*.zip'
