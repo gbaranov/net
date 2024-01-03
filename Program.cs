@@ -25,21 +25,21 @@ app.UseSwagger();
 app.UseSwaggerUI();
 
 
-/*if (app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
-}*/
+}
 
 
 app.UseHttpsRedirection();
 
-app.UseCors(options =>
+/*app.UseCors(options =>
 {
     options.AllowAnyOrigin();
     options.AllowAnyMethod();
     options.AllowAnyHeader();
-});
+});*/
 
 app.UseAuthorization();
 
