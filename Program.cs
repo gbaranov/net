@@ -11,6 +11,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddHealthChecks();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("AZURESQL"));
@@ -24,16 +25,9 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
 
-
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
-
 app.UseHttpsRedirection();
-
+app.UseDeveloperExceptionPage();
+app.MapHealthChecks("/health");
 app.UseAuthorization();
 
 app.MapControllers();
