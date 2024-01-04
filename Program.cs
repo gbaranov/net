@@ -26,11 +26,10 @@ app.UseSwagger();
 app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
-app.UseDeveloperExceptionPage();
+
 app.MapHealthChecks("/health");
 app.UseAuthorization();
 
 app.MapControllers();
-
 app.Run();
 
