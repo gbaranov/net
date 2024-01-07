@@ -22,10 +22,10 @@ builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 
 var app = builder.Build();
 
+app.UseCors(builder => builder.AllowAnyOrigin());
+
 app.UseSwagger();
 app.UseSwaggerUI();
-
-app.UseHttpsRedirection();
 
 app.MapHealthChecks("/health");
 app.UseAuthorization();
