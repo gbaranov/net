@@ -43,3 +43,4 @@ steps:
     repository: 'baran0v / appbackdev'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
+    tags: latest
