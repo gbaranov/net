@@ -43,3 +43,4 @@ steps:
     repository: 'baran0v / appbackdev'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
+    arguments: '--platform linux/amd64'
