@@ -7,7 +7,7 @@ using net.Repositories.Interface;
 
 namespace net.Controllers
 {   
-    //
+    
     [Route("api/[controller]")]
     [ApiController]
     public class CategoriesController : ControllerBase
