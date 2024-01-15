@@ -22,7 +22,7 @@ builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 
 var app = builder.Build();
 
-app.UseCors(builder => builder.AllowAnyOrigin());
+app.UseCors(builder => { builder.AllowAnyOrigin(), builder.AllowAnyHeader() });
 
 app.UseSwagger();
 app.UseSwaggerUI();
