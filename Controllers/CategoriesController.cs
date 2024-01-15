@@ -39,5 +39,21 @@ namespace net.Controllers
 
             return Ok(response);
         }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAllCategories()
+        {
+            var categories = await categoryRepository.GetAllAsync();
+            var response = new List<CategoryDto>();
+            foreach (var category in categories)
+            {
+                response.Add(new CategoryDto {
+                    Id = category.Id,
+                    Name = category.Name,
+                    UrlHandle = category.UrlHandle
+                });   
+            }
+            return Ok(response);
+        }
     }
 }

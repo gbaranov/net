@@ -1,4 +1,5 @@
-﻿using net.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using net.Data;
 using net.Domain;
 using net.Repositories.Interface;
 
@@ -17,6 +18,11 @@ namespace net.Repositories.Implementation
             await dbContext.SaveChangesAsync();
 
             return category;
+        }
+
+        public async Task<IEnumerable<Category>> GetAllAsync()
+        {
+           return await dbContext.Categories.ToListAsync();
         }
     }
 }

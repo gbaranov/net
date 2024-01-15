@@ -1,5 +1,4 @@
-﻿using System;
-namespace net.Domain
+﻿namespace net.Domain
 {
 	public class Category
 	{
