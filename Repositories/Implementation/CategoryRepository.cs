@@ -21,6 +21,18 @@ namespace net.Repositories.Implementation
             return category;
         }
 
+        public async Task<Category?> DeleteAsync(Guid id)
+        {
+            var category = await dbContext.Categories.FirstOrDefaultAsync(c => c.Id == id);
+            if (category is null)
+            {
+                return null;
+            }
+            dbContext.Categories.Remove(category);
+            await dbContext.SaveChangesAsync();
+            return category;
+        }
+
         public async Task<IEnumerable<Category>> GetAllAsync()
         {
            return await dbContext.Categories.ToListAsync();
