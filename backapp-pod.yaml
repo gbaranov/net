@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: Pod
-metadata:
-  name: backapp
-spec: 
-  containers:
-  name: backapp
-  ports: baran0v/appbackdev:latest
-  - containerPort: 8080
